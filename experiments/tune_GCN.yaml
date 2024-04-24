@@ -1,0 +1,26 @@
+cora:
+  path: "results"
+  name: "tune_GCN_cora"
+  samples: "300"
+  stopping: "300"
+  mode: "tune"
+  params: "params/gcn.yaml"
+  model: "GCN"
+
+citeseer:
+  path: "results"
+  name: "tune_GCN_citeseer"
+  samples: "300"
+  stopping: "300"
+  mode: "tune"
+  params: "params/gcn.yaml"
+  model: "GCN"
+
+pubmed:
+  path: "results"
+  name: "tune_GCN_pubmed"
+  samples: "300"
+  stopping: "300"
+  mode: "tune"
+  params: "params/gcn.yaml"
+  model: "GCN"

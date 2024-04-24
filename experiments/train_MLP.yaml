@@ -1,0 +1,26 @@
+cora:
+  path: "results"
+  name: "train_MLP_cora"
+  samples: "100"
+  stopping: "300"
+  mode: "train"
+  params: "params/mlp.yaml"
+  model: "MLP"
+
+citeseer:
+  path: "results"
+  name: "train_MLP_citeseer"
+  samples: "100"
+  stopping: "300"
+  mode: "train"
+  params: "params/mlp.yaml"
+  model: "MLP"
+
+pubmed:
+  path: "results"
+  name: "train_MLP_pubmed"
+  samples: "100"
+  stopping: "300"
+  mode: "train"
+  params: "params/mlp.yaml"
+  model: "MLP"

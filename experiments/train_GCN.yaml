@@ -1,0 +1,26 @@
+cora:
+  path: "results"
+  name: "train_GCN_cora"
+  samples: "10"
+  stopping: "300"
+  mode: "train"
+  params: "params/gcn.yaml"
+  model: "GCN"
+
+citeseer:
+  path: "results"
+  name: "train_GCN_citeseer"
+  samples: "10"
+  stopping: "300"
+  mode: "train"
+  params: "params/gcn.yaml"
+  model: "GCN"
+
+pubmed:
+  path: "results"
+  name: "train_GCN_pubmed"
+  samples: "10"
+  stopping: "300"
+  mode: "train"
+  params: "params/gcn.yaml"
+  model: "GCN"

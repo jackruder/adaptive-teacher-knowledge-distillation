@@ -1,0 +1,29 @@
+cora:
+  path: "results"
+  name: "tune_glnn_cora"
+  samples: "5000"
+  stopping: "300"
+  mode: "tune"
+  params: "params/glnn.yaml"
+  lsp: "no"
+  fixed: "yes"
+
+citeseer:
+  path: "results"
+  name: "tune_glnn_citeseer"
+  samples: "5000"
+  stopping: "300"
+  mode: "tune"
+  params: "params/glnn.yaml"
+  lsp: "no"
+  fixed: "yes"
+
+pubmed:
+  path: "results"
+  name: "tune_glnn_pubmed"
+  samples: "5000"
+  stopping: "300"
+  mode: "tune"
+  params: "params/glnn.yaml"
+  lsp: "no"
+  fixed: "yes"

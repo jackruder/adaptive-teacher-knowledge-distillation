@@ -1,0 +1,30 @@
+cora:
+  path: "results"
+  name: "tune_atkd_lsp_cora"
+  samples: "5000"
+  stopping: "300"
+  mode: "tune"
+  params: "params/atkd_lsp.yaml"
+  lsp: "yes"
+  fixed: "no"
+
+citeseer:
+  path: "results"
+  name: "tune_atkd_lsp_citeseer"
+  samples: "5000"
+  stopping: "300"
+  mode: "tune"
+  params: "params/atkd_lsp.yaml"
+  lsp: "yes"
+  fixed: "no"
+
+pubmed:
+  path: "results"
+  name: "tune_atkd_lsp_pubmed"
+  samples: "5000"
+  stopping: "300"
+  mode: "tune"
+  params: "params/atkd_lsp.yaml"
+  lsp: "yes"
+  fixed: "no"
+

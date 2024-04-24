@@ -1,0 +1,9 @@
+cora:
+  lr: 0.027
+  decay: 0.00007
+citeseer:
+  lr: 0.01
+  decay: 0.00000002
+pubmed:
+  lr: 0.025
+  decay: 0.00025
